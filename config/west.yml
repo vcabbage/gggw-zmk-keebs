@@ -13,7 +13,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: ff09f2d0c9f13a868c8f71d71d9348ade438e4b6
+      revision: 9ebbeff0a8b69a42f14aec022cdf16c7a107b9e0
       import: app/west.yml
     - name: zmk-pmw3610-driver-badjeff
       remote: badjeff
@@ -33,6 +33,6 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: 9cef5af88c26e4b86a2a448160055dc740c14d6f
+      revision: e6b467792a1dabef8cfa5c9fd26bfefc9c16662b
   self:
     path: config
